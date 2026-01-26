@@ -98,3 +98,8 @@ main {
     box-sizing: border-box;
     border: #264653;
 }
+
+span {
+    background-color: yellow;
+    border-color: red;
+}
