@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --heading-background-color: #f06;
     --heading-text-color: #333;
@@ -21,6 +27,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: 5rem;
 }
 
 img {
@@ -28,11 +35,15 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 40px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+
 }
 
 p {
     padding: 10px;
+    margin: 1rem;
 }
 
 
@@ -49,4 +60,50 @@ aside {
     margin: 10px auto;
     padding: var(--padding);
     box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+
+}
+
+aside image {
+    width: 200px;
+    height: auto;
+
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    padding-left: 1rem;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+ul {
+    display: block;
+    list-style: disc;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0;
+    padding-inline-start: 40px;
 }
