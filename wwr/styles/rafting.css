@@ -14,6 +14,12 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    padding: 1px;
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
 }
 
 * {
@@ -42,7 +48,6 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
 p,
 section,
 article {
@@ -51,6 +56,21 @@ article {
     box-sizing: border-box;
     background-color: red;
     padding-left: 40px;
+}
+
+.menu {
+    background-color: gold;
+    color: #055a05;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+
 }
 
 .socialmedia a {
@@ -110,4 +130,20 @@ main {
 span {
     background-color: yellow;
     border-color: red;
+}
+
+/* .hero a {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    box-sizing: border-box;
+} */
+
+a:hover {
+    background-color: red;
 }
