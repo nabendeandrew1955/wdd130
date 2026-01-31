@@ -162,8 +162,3 @@ nav a {
     padding: 1em;
 
 }
-
-#rafting {
-    display: grid;
-    grid-template-rows: auto;
-}
