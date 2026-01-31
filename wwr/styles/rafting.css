@@ -59,6 +59,25 @@ article {
     padding-left: 40px;
 }
 
+/* header.nav {
+    background-color: #055a05;
+}
+
+header.nav.ul {
+    list-style-type: none;
+}
+
+header.nav.a {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+} */
+
 .menu {
     background-color: gold;
     color: #055a05;
@@ -158,4 +177,16 @@ span {
 
 a:hover {
     background-color: red;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.history.img {
+    align-items: center;
+
 }
