@@ -15,7 +15,7 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 1px;
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -40,6 +40,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 h1,
@@ -61,11 +62,11 @@ article {
 .menu {
     background-color: gold;
     color: #055a05;
-    padding: 1px;
+    padding: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     box-sizing: border-box;
     font-weight: 700;
     text-decoration: none;
@@ -76,6 +77,13 @@ article {
 .socialmedia a {
     text-decoration: none;
 
+}
+
+footer.socialmedia {
+
+    float: right;
+    margin: 0 5px 5px;
+    boader: 1px var(--secondary-color)
 }
 
 .hero {
@@ -146,4 +154,16 @@ span {
 
 a:hover {
     background-color: red;
+}
+
+nav a {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1em;
+
+}
+
+#rafting {
+    display: grid;
+    grid-template-rows: auto;
 }
