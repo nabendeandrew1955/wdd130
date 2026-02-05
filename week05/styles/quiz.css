@@ -37,6 +37,14 @@ textarea,
 select {
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 10px 5px 15px;
     border: 2px solid #9494948f;
+}
+
+button {
+    background-color: rgb(58, 58, 184);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
 }
