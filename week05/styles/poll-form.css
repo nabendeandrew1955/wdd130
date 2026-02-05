@@ -16,6 +16,14 @@ header {
     width: 650px;
 }
 
+header,
+footer {
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 3px #777;
+
+}
+
 h1 {
     margin: 1rem;
     font-size: 1.5em;
