@@ -7,31 +7,41 @@
     <title>Nabzo Rafting Company Limited</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="This shows the details about the rafting water company">
-    <meta name="author" content="Nabende Andrew Mafabi>
+    <meta name="author" content="Nabende Andrew Mafabi">
 </head>
 
 <body>
     <header>
         <figure>
             <img src=" images/rafting.png" alt="water rafting">
-    <figcaption>water rafting</figcaption>
-    </figure>
-    <nav>
-        <ul class="menu">
+            <figcaption>water rafting</figcaption>
+        </figure>
+        <nav>
+            <ul class="menu">
 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="trip.html">Trips</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trip.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="contact">
+        <fieldset bgcolor="yellow">
+            <div id="header">
+                <div id="logo"><img src="images/rafting.png" width="100"></div>
+                <p><b>Nabzo Rafting Company Limited</b></p>
+                <h2>Contact Information</h2>
+                <p><b><u>Send Us a Message on</u></b></p>
+                <p>Phone Number(s): +256771652048</p>
+                <p>Email: <a href="nmafabi@byupathway.edu">nmafabi@byupathway.edu</a></p>
+            </div>
             <div class="profile">
                 <h3>Nabende Andrew Mafabi</h3>
                 <p>C.E.O "Nabzo Rafting Company Limited"</p>
                 <img src="images/Andrew1.jpg" alt="C.E.O">
+            </div>
+            <div class="caption">
                 <caption>
                     <h3>Nabudwa Flavia</h3>
                     <p>Director</p>
@@ -40,20 +50,46 @@
                     <h3>Masibo Martha</h3>
                     <p>Secretary</p>
                 </caption>
-                <p>C.E.O Nabzo Rafting Company Limited</p>
             </div>
-            <h2>Contact information</h2>
-            <h3>Send us a message!</h3>
-            <p>Nabzo Rafting Company Limited</p>
-            <p>Phone Number(s): +256771652048</p>
-            <p>Email: <a href="nmafabi@byupathway.edu">Email Address</a></p>
+            </div>
+            </div>
+            <hr>
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.520020919233!2d32.60289679012635!3d0.30976524272931594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc7362538d37%3A0x52875ea6886b0682!2sNamuwongo%2C%20Kampala!5e0!3m2!1sen!2sug!4v1770678210020!5m2!1sen!2sug"
-                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    width="450" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            </div>
+                <div id="main_content">
+                    <form>
+                        <fieldset>
+                            <div class="container">
+                                <div class="form_group">
+                                    <label for="Fullname">Full Name:</label>
+                                    <input type="text" name="name" id="name" size="50" required>
+                                    <label for="Useremail">Email:</label>
+                                    <input type="email" name="user_email" id="user_email" size="50">
+                                    <legend><b><u>The Purpose of Message</u></b></legend>
+                                    <label for="radio">General Inquiry</label>
+                                    <input type="radio" name="purpose" id="purpose" Value="General" size="30">
+                                    <label for="radio">Reservation Questions</label>
+                                    <input type="radio" name="reservation" id="reservation"
+                                        value="Reservation Question">
+                                    <label for="radio">Website Suggestions</label>
+                                    <input type="radio" name="suggestions" id="suggestions" value="website suggests">
+                                    <label for="radio">Please Subscribe to the momthly letters</label>
+                                    <input type="checkbox" name="subscribe" id="subscribe" value="Subscribe">
+                                    <label for="radio"></label>
+                                    <center><input type="submit" name="submit" value="SUBMIT"></center>
+
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+        </fieldset>
+
+        </div>
         </div>
         <div class="hero">
             <figure>
@@ -107,6 +143,6 @@
 
     </footer>
 
-    </body>
+</body>
 
 </html>
