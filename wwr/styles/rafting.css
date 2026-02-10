@@ -161,3 +161,49 @@ a:hover {
 .history h2 {
     grid-column: span 3;
 }
+
+#main_content.fieldset {
+    width: 840px;
+    border-radius: 12px;
+    text-align: justify;
+    float: center;
+    background-color: pink;
+    font-size: 20px;
+    color: blue;
+    margin-left: 150px;
+}
+
+#label {
+    float: left;
+    padding-right: 50px;
+    line-height: 10%;
+    display: block;
+    width: 208px;
+}
+
+.form_group {
+    padding: 1rem;
+    display: grid;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+.label {
+    float: left;
+    padding-right: 50px;
+    line-height: 10%;
+    display: block;
+    width: 280px;
+}
+
+.fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+
+}
