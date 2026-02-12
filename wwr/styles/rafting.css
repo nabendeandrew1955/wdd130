@@ -201,6 +201,9 @@ a:hover {
 
 .fieldset {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-span: 3;
+    place-items: center;
     gap: 0.5rem;
     margin: 1rem;
     border: 1px solid black;
