@@ -83,13 +83,13 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     top: 90px;
     width: 95%;
     padding: 10px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
