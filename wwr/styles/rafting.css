@@ -18,7 +18,8 @@
     box-sizing: border-box;
 }
 
-header {
+header,
+footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -93,4 +94,112 @@ h1 {
     opacity: 0.7;
     background-color: var(--secondary-color);
     color: #fff;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 840px;
+}
+
+header log img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+header log {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav li {
+    flex: 1 1 auto;
+}
+
+header nav a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.history figure {
+    max-width: 200px;
+    height: auto;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 210px 210px 210px auto;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    grid-gap: 20px;
+    max-width: 840px;
+    margin: 10px auto;
+
+}
+
+.history h2 {
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: var(--accent2-color);
+    place-content: center;
+}
+
+.history p {
+    width: 100%;
+    height: auto;
+}
+
+.adventure figure {
+    max-width: 200px;
+    height: auto;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    grid-gap: 20px;
+    max-width: 840px;
+    margin: 10px auto;
+
+}
+
+.adventure h2 {
+    display: flex;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    background-color: var(--accent2-color);
+    place-content: center;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+footer nav {
+    float: right;
+    margin: 10px auto;
 }
