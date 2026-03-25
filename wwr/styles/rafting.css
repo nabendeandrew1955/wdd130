@@ -103,6 +103,7 @@ header {
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 840px;
+    border-radius: 0.5rem;
 }
 
 header figure img {
@@ -197,6 +198,7 @@ footer {
     display: flex;
     padding: 10px;
     margin: 20px auto;
+    border-radius: 0.5rem;
 }
 
 footer nav {
@@ -285,6 +287,7 @@ button {
     border-radius: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;
+    display: inline-block;
 
 }
 
@@ -329,4 +332,35 @@ button:hover {
 
 .service figure img {
     max-width: 100%;
+}
+
+.action {
+    display: flex;
+    background-color: green;
+    max-width: 840px;
+    margin: 10px auto;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.action form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    border-radius: 0.5rem;
+    background-color: red;
+    color: #eee;
+
+}
+
+.action fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
 }
