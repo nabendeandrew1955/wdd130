@@ -384,5 +384,10 @@ button:hover {
     margin: 10px auto;
     background-color: var(--accent2-color);
     padding: 10px;
+    text-align: center;
 
+}
+
+span {
+    background-color: greenyellow;
 }
